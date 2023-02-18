@@ -7,7 +7,9 @@ public class Library {
 	
 	// Added this
 	public static void main(String arg[]) {
-		System.out.println("Hello, World!");
+		Library lib = new Libray();
+		if(lib.someLibraryMethod())
+			System.out.println("Hello, World!");
 	}
 	
     public boolean someLibraryMethod() {
